@@ -14,7 +14,8 @@ func main() {
 }
 ```
 For basic variables, the following should be remembered:
-- int: Stores integers (whole numbers), such as 123 or -123.
-- float32: Stores floating-point numbers, with decimals, such as 19.99 or -19.99.
-- string: Stores text, such as "Hello World." String values are enclosed in double quotes.
-- bool: Stores values with two states: true or false.
+- **int**: Stores integers (whole numbers), such as 123 or -123.
+- **float32**: Stores floating-point numbers, with decimals, such as 19.99 or -19.99.
+- **string**: Stores text, such as "Hello World." String values are enclosed in double quotes.
+- **bool**: Stores values with two states: true or false.
+
