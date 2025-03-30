@@ -23,3 +23,16 @@ There are two ways to create variables.
 - var _______ -type-
 - var _______ -type- = _______
 - _______ := _______
+
+The const keyword declares the variable as "constant", which means that it is unchangeable and read-only.
+- const CONSTNAME type = value
+this could be inside or outside of the **func**
+
+Go has three functions to output text:
+
+- The Print() function prints its arguments with their default format.
+- The Println() print the function with a \n
+- The Printf() function first formats its argument based on the given formatting verb and then prints them.
+	-%v is used to print the value of the arguments
+  	-%T is used to print the type of the arguments
+
