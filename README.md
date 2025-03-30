@@ -30,6 +30,14 @@ this could be inside or outside of the **func**
 
 Go has three functions to output text:
 
-- The Print() function prints its arguments with their default format.
-- The Println() print the function with a \n
-- The Printf() function first formats its argument based on the given formatting verb and then prints them. **%v** is used to print the value of the arguments. **%T** is used to print the type of the arguments
+- **The Print()** function prints its arguments with their default format.
+- **The Println()** print the function with a \n
+- **The Printf()** function first formats its argument based on the given formatting verb and then prints them.
+
+General Formatting Verbs fo Printf()
+The following verbs can be used with all data types
+|Verb	|Description				|
+|%v	|Prints the value in the default format	|
+|%#v	|Prints the value in Go-syntax format	|
+|%T	|Prints the type of the value		|
+|%%	|Prints the % sign			|
