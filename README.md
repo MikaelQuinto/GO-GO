@@ -37,6 +37,7 @@ Go has three functions to output text:
 General Formatting Verbs fo Printf()
 The following verbs can be used with all data types
 |Verb	|Description				|
+|-------|---------------------------------------|
 |%v	|Prints the value in the default format	|
 |%#v	|Prints the value in Go-syntax format	|
 |%T	|Prints the type of the value		|
