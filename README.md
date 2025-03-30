@@ -36,9 +36,14 @@ Go has three functions to output text:
 
 General Formatting Verbs fo Printf()
 The following verbs can be used with all data types
-|Verb	|Description				|
-|-------|---------------------------------------|
-|%v	|Prints the value in the default format	|
-|%#v	|Prints the value in Go-syntax format	|
-|%T	|Prints the type of the value		|
-|%%	|Prints the % sign			|
+|Verb	|Description					|
+|-------|-----------------------------------------------|
+|%v	|Prints the value in the default format		|
+|%#v	|Prints the value in Go-syntax format		|
+|%T	|Prints the type of the value			|
+|%%	|Prints the % sign				|
+|%4d	|Pad with spaces (width 4, right justified)	|
+|%-4d	|Pad with spaces (width 4, left justified)	|
+|%04d	|Pad with zeroes (width 4			|
+
+a
